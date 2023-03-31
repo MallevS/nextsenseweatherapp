@@ -33,6 +33,4 @@ function requestApi(city) {
     wrapper.querySelector(".location span").innerText = `${city}, ${country}`;
     wrapper.querySelector(".temp .numb-2").innerText = Math.floor(feels_like);
     wrapper.querySelector(".humidity span").innerText = humidity + "%";
-
-    console.log(info);
   }
